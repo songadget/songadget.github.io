@@ -2,6 +2,11 @@
 
 /*global styling*/
 
+:root{
+	--hovColor: #d713e9;
+   --darkGreen: rgba(47, 79, 79, 1);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -59,7 +64,7 @@ section .title::after{
 }
 
 section {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 h1, h2, h3 {
@@ -121,7 +126,7 @@ justify-content: space-between;
 .bullet-and-text {
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .bullet-and-text > h2 {
@@ -268,7 +273,7 @@ footer{
 }
 
 footer span {
-    color: #d713e9;
+    color: var(--darkGreen);
 }
 
 footer span a{
@@ -313,6 +318,16 @@ footer img{
 
 @media (max-width: 947px) {
 
+    .bullet-and-text {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .bullet-and-text > p {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
     .max-width{
         max-width: 800px;
     }
@@ -346,12 +361,16 @@ footer img{
         flex: 100%;
     }
 
+    #logo {
+        padding-top: 150px;
+    }
+
     iframe {
         width: calc(0.85vw * 112);
-        height: calc(0.85vw * 63);
+        height: calc(0.86vw * 63);
         padding-left: 0;
         padding-right: 0;
-        padding-top: 40px;
+        padding-top: 0px;
         padding-bottom: 40px;
     }
 
@@ -363,7 +382,8 @@ footer img{
     padding-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
-    height: 35px;
+    width: 120px;
+    height: auto;
     }
 }
 
