@@ -6,7 +6,7 @@
 	width: 45px;
 }
 
-#craig-logo{
+.craig-logo{
     font-family: "new-spirit", serif;
     font-weight: 400;
     font-style: normal;
@@ -14,11 +14,11 @@
 	border: solid 1px white;
 }
 
-#craig-logo:hover{
+.craig-logo:hover{
 	border: solid 1px var(--hovColor);
 }
 
-#sd-logo {
+.sd-logo {
    position: relative;
    top: 8px;
    height: 35px;
@@ -41,7 +41,7 @@ navbar-logo{
 .navbar.sticky{
    padding: 15px 0;
    background-repeat: repeat;
-   background-color: chocolate;
+   background-color: coral;
 }
 
 .navbar .max-width {
@@ -218,10 +218,10 @@ navbar-logo{
 	   display: none!important;
    }
 
-   #sd-logo {
+   .sd-logo {
       padding-right: 5px;
    }
-   #craig-logo{
+   .craig-logo{
       border: none;
    }
 

@@ -45,14 +45,14 @@
 					<!--commented out because div as a child of ul isn't allowed, but I still want to know these are contained here-->
 						<li><a href='https://www.instagram.com/songadget/'><i class="fa-brands fa-instagram social desk-socials"></i></a></li>
 						<li><a href="https://discord.gg/RhU2XkWv"><i class="fa-brands fa-discord social desk-socials"></i></a></li>
-						<li><a href='https://www.saadindassum.com/' class="social"><img id="sd-logo" class="social desk-socials" src="assets/sdWhite.png" alt="Saadin Dassum logo"></a></li>
-						<li><a href='https://www.craigcarothers.com/' class="social"><p id="craig-logo" class="social desk-socials">CC</p></a></li>
+						<li><a href='https://www.craigcarothers.com/' class="social"><p class="craig-logo social desk-socials">CC</p></a></li>
+						<li><a href='https://www.saadindassum.com/' class="social"><img id="sd-logo" class="sd-logo social desk-socials" src="assets/sdWhite.png" alt="Saadin Dassum logo"></a></li>
 					<!--/div-->
 					<li class="mobile-item" id="mobile-container">
 						<a href='https://www.instagram.com/songadget/' class="social"><i class="fa-brands fa-instagram"></i></a>
 						<a href="https://discord.gg/RhU2XkWv"><i class="fa-brands fa-discord"></i></a>
-						<a href='https://www.saadindassum.com/' class="social"><img id="sd-logo" src="assets/sdWhite.png" alt="Saadin Dassum logo"></a>
-						<a href='https://www.craigcarothers.com/' class="social"><p id="craig-logo">CC</p></a>
+						<a href='https://www.craigcarothers.com/' class="social"><p class="craig-logo">CC</p></a>
+						<a href='https://www.saadindassum.com/' class="social"><img class="sd-logo" src="assets/sdWhite.png" alt="Saadin Dassum logo"></a>
 					</li>
 				</ul>
 				<div class="menu-btn">
@@ -65,7 +65,7 @@
 		<!-- H O M E  S E C T I O N  S T A R T-->
 		<img src="assets/lcdLogo.png" alt="Songadget logo" id="logo">
 		<section class="home" id="home">
-			<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+			<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			<div class="button-list">
 				<img src="assets/appStore.png" id="app-store-button" class="app-link-button" alt="Download in App Store">
 				<img src="assets/googlePlay.png" id="google-play-button" class="app-link-button" alt="Get it on Google Play">
@@ -76,7 +76,7 @@
 	    <!-- about section start -->
 	    <section class="about" id="about">
 	        <div class="max-width">
-	            <h2 class="title">What is Songadget?</h2>
+	            <h1 class="title">What is Songadget?</h1>
 	            <div class="text-content">
 	                <div class="column right">
 	                    <p>Songadget is an app designed to hone your songwriting skills by providing writing prompts to you. Generate a prompt in the app, and then use it to write a song (outside the app, of course).<br><br>
@@ -91,12 +91,12 @@
 	    <!--Miami film section-->
 	    <section class="how-to" id="how-to">
 	    	<div class="max-width">
-	    		<h2 class="title">How You Should Go About It</h2>
+	    		<h1 class="title">How You Should Go About It</h1>
 				<div class="text-content">
 					<p>
 						The goal is to write a song that you are satisfied with under the constraints of the prompt that the app generates for you. Are you happy with what you wrote? Then you're doing it right!
 					</p>
-					<h3 class="subtitle">On the subject of vagueness</h3>
+					<h2 class="subtitle">On the subject of vagueness</h2>
 					<p>
 						<em>Say I ask you to "write blue".</em> What the heck does that mean? Well...<br><br>
 						If I ask one person, they might assume I mean write something sad, and they might give me a song about a breakup.<br><br>
@@ -110,32 +110,48 @@
 
 	    <section class="controls" id="controls">
 	        <div class="max-width">
-	            <h2 class="title">Controls</h2>
+	            <h1 class="title">Controls</h1>
 	            <div class="text-content">
 	                <div class="column right">
-	                    <h3 class="red">
-							Tourmaline
-						</h3>
+						<div class="bullet-and-text">
+							<img src="assets/tmlOn.png" alt="tmlOn.png">
+							<h2>
+								Tourmaline
+							</h2>
+						</div>
 						<p>
 							Also known as the EZ button. Tourmaline will generate a random prompt for you, drawing from one of four categories (more on those below).
 						</p>
-						<h3 class="yellow">
-							Bumblebee Jasper
-						</h3>
+						<div class="bullet-and-text">
+							<img src="assets/bmbOn.png" alt="bmbOn.png">
+							<h2>
+								Bumblebee Jasper
+							</h2>
+						</div>
 						<p>
-							Bumblebee Jasper will generate a prompt depending on which categories the user has activated via the category buttons (more on those below).
+							Also known as the GO button. Bumblebee Jasper will generate a prompt depending on which categories the user has activated via the category buttons (more on those below).
 						</p>
-						<h3>
+						<h2>
 							Category Buttons
-						</h3>
-						<p>
-							The little buttons toggle categories. An active category button will have its light on.<br>
-							<em>From left to right:</em><br>
-							• <span class="green">Emerald</span> - toggles the lyrical category.<br>
-							• <span class="blue">Sodalite</span> - toggles the musical category.<br>
-							• <span class="purple">Moonstone</span> - toggles the structural category.<br>
-							• <span class="pink">Rosequartz</span> - toggles the conceptual category.<br>
-						</p>
+						</h2>
+						<p>The little buttons toggle categories. An active category button will have its light on.</p>
+						<p><em>From left to right:</em><br></p>
+						<div class="bullet-and-text">
+							<img src="assets/emrOn.png" alt="emrOn.png">
+							<p>Emerald - toggles the lyrical category.<br></p>
+						</div>
+						<div class="bullet-and-text">
+							<img src="assets/sdlOn.png" alt="sdlOn.png">
+							<p>Sodalite - toggles the musical category.<br></p>
+						</div>
+						<div class="bullet-and-text">
+							<img src="assets/mstOn.png" alt="mstOn.png">
+							<p>Moonstone - toggles the structural category.<br></p>
+						</div>
+						<div class="bullet-and-text">
+							<img src="assets/tngOn.png" alt="rsqOn.png">
+							<p>Rosequartz - toggles the conceptual category.<br></p>
+						</div>
 	                </div>
 	            </div>
 	        </div>
@@ -143,30 +159,30 @@
 
 		<section class="categories" id="categories">
 	        <div class="max-width">
-	            <h2 class="title">Categories</h2>
+	            <h1 class="title">Categories</h1>
 	            <div class="text-content">
 	                <div class="column right">
-	                    <h3 class="green">
+	                    <h2 class="green">
 							Lyrical<br>
-						</h3>
+						</h2>
 						<p>
 							Everything lyrics. From avoiding letters, to requiring certain words in the song.
 						</p>
-						<h3 class="blue">
+						<h2 class="blue">
 							Musical
-						</h3>
+						</h2>
 						<p>
 							Rhythm and harmony. Perfect for shaking up any musical traps and routines you're finding yourself caught in.
 						</p>
-						<h3 class="purple">
+						<h2 class="purple">
 							Structural
-						</h3>
+						</h2>
 						<p>
 							All about form and duration.
 						</p>
-						<h3 class="pink">
+						<h2 class="pink">
 							Conceptual
-						</h3>
+						</h2>
 						<p>
 							Focused on theme and approach.
 						</p>
@@ -174,12 +190,10 @@
 	            </div>
 	        </div>
 	    </section>
-		<a href="https://www.craigcarothers.com/">Craig Carothers</a>
-		<a href="https://www.saadindassum.com/">Saadin Dassum</a>
 
 		<footer>
 			<span>Website developed by<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Saadin Dassum </a> 
-				<span class="far fa-copyright">Craig Carothers and Saadin Dassum 2023 All Rights Reserved.</span> 
+				<span class="far fa-copyright">Craig Carothers and Saadin Dassum 2023, All Rights Reserved.</span> 
 			</span>
 			<br>
 		</footer>
@@ -194,7 +208,7 @@
 				location.href = "https://play.google.com/store/apps/details?id=com.music.songadget";
 			};
 			sdLogo.onmouseover = function() {
-				sdLogo.src = "assets/sdPurple.png"
+				sdLogo.src = "assets/sdPurple.png";
 			}
 			sdLogo.onmouseleave = function() {
 				sdLogo.src = "assets/sdWhite.png";
