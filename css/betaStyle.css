@@ -1,12 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Ubuntu:wght@300&display=swap');
-
 body {
     /*background-image: url("assets/backgroundTile.png");
     background-repeat: repeat;*/
-    background-color: darkgoldenrod;
+    background-color: #93d288;
     font-family: 'Ubuntu', sans-serif;
     color: white;
     font-weight: 700;
+}
+
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'sangBold';
+}
+
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width:  600px;
+    height: 2px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+section .title::after{
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    font-size: 20px;
+    color: #fabf00; 
+    padding: 5px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+section {
+    padding: 100px 0;
 }
 
 h1 {
@@ -21,8 +55,24 @@ h3 {
     font-family: 'Rahdahani';
 }
 
+/*global styling*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 .max-width {
-    max-width: 1000px;
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+    overflow-x: hidden;
 }
 
 .button-list{
@@ -68,7 +118,7 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;   
+    width: 50%;
 }
 
 .text-content {
@@ -172,7 +222,7 @@ footer img{
 @media (max-width: 947px) {
 
     .max-width{
-        max-width: 800px;
+        max-width: 937px;
         margin-left: 0;
     }
 
@@ -184,7 +234,7 @@ footer img{
 @media (max-width: 690px) {
     /*690 global*/
     .max-width {
-        max-width: 650px;
+        max-width: 680px;
     }
     section .title::before{
         width: 400px;
@@ -204,7 +254,7 @@ footer img{
 @media (max-width: 500px) {
 
     .max-width {
-        max-width: 480px;
+        max-width: 490px;
     }
     .text-content {
         font-size:  27px;
