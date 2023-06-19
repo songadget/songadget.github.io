@@ -3,8 +3,8 @@
 /*global styling*/
 
 :root{
-	--hovColor: #d713e9;
-   --darkGreen: rgba(47, 79, 79, 1);
+	--hovColor: #fabf00;
+   --secondaryColor: rgba(47, 79, 79, 1);
 }
 
 html {
@@ -117,10 +117,11 @@ hr {
 }
 
 .text-content {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-between;
+    color: var(--secondaryColor);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .bullet-and-text {
@@ -273,15 +274,16 @@ footer{
 }
 
 footer span {
-    color: var(--darkGreen);
+    color: var(--secondaryColor);
 }
 
 footer span a{
-    color: white;
+    color: var(--secondaryColor);
     text-decoration: none;
 }
 
 footer span a:hover{
+    color: white;
     text-decoration: underline;
 }
 

@@ -16,8 +16,8 @@
 
 .sd-logo {
    position: relative;
-   top: 8px;
-   height: 35px;
+   top: 10px;
+   height: 30px;
 }
 
 navbar-logo{
@@ -107,7 +107,7 @@ navbar-logo{
    position: fixed;
    height: 45px;
    width: 42px;
-   background: var(--darkGreen);
+   background: var(--secondaryColor);
    right: 30px;
    bottom: 10px;
    text-align: center;
@@ -179,7 +179,7 @@ navbar-logo{
 	   width: 100%;
 	   left: -100%;
 	   top: 0;
-	   background: var(--darkGreen);
+	   background: var(--secondaryColor);
 	   text-align: center;
 	   padding-top: 80px;
 	   transition: all 0.3s ease;
