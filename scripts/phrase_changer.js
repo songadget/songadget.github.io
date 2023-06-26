@@ -1,4 +1,4 @@
-const allPhrases = ["Songadget eliminates the blank page.\n", "Songadget gets the ball rolling.\n", "Songadget provides a jumping off point, and you do the rest.", "Every prompt contains a songwriting idea.\n"];
+const allPhrases = ["The cure for writer's block.","Songadget eliminates the blank page.", "Songadget gets the ball rolling.", "Songadget provides a jumping off point, and you do the rest.", "Every prompt contains a songwriting idea."];
 
 //Global variables
 var phraseTag;
