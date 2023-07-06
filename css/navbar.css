@@ -166,7 +166,7 @@ navbar-logo{
 @media (max-width: 947px) {
 
    .navbar{
-      padding: 2px;
+      padding: 0px 0;
    }
 
    .navbar.sticky {
